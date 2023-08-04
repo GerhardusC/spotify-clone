@@ -1,0 +1,37 @@
+/* 
+    Styles for the block containing reasons to get Spotify premium.
+*/
+
+.why-go-premium-block {
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+.why-go-premium-block img {
+    margin-top: 30px;
+    width: 150px;
+}
+
+.reasons-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.reasons-container h1 {
+    font-size: 35px;
+    font-family: "GothamBold";
+}
+
+.reason-text {
+    font-family: "GothamMedium";
+    font-size: large;
+}
+
+.explanation-text {
+    font-family: "GothamLight";
+}

@@ -1,0 +1,69 @@
+/* 
+    Styles for the big blue promotion that says get your premium free for 1 month.
+*/
+
+.promotion-division {
+    background-color: rgb(29, 117, 222);
+    color: white;
+    font-family: "GothamMedium";
+    margin-top: 0;
+    min-height: 480px;
+    padding-top: 1px;
+}
+
+.promotion-block-container {
+    max-width: 1170px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 72px;
+}
+
+.promotion-block-container h1 {
+    font-size: 40px;
+    font-family: "GothamBold";
+}
+
+.promotion-block-container p {
+    font-size: 24px;
+    font-family: "GothamMedium";
+}
+
+.promotion-block-container .fine-print {
+    font-size: 0.6875rem;
+}
+
+.buttons-box {
+    display: flex;
+    flex-direction: row;
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+
+.get-started-button, .view-plans-button {
+    margin-right: 8px;
+    border-radius: 500px;
+    padding-block: 14px;
+    padding-inline: 32px;
+    transition: transform 0.1s;
+    
+}
+
+.get-started-button {
+    border: 2px solid black;
+    background-color: black;
+}
+
+.view-plans-button {
+    border: 2px solid white;
+}
+
+.get-started-button:hover, .view-plans-button:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.view-plans-button:hover {
+    background-color: rgb(26, 101, 192);
+}

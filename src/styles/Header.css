@@ -1,0 +1,67 @@
+/* 
+These styles try to copy the header as much as possible. 
+Responsive design is not implemented here, because it requires me to build a time consuming burger menu side bar.
+I've taken the colour pallets straight from the spotify website.
+*/
+.header-banner {
+    font-family: "GothamBold";
+    max-width: 1170px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+    align-items: center;
+    height: 80px;
+    margin-bottom: 0;
+}
+.full-header {
+    background-color: black;
+}
+
+.brand-box {
+    width: 182px;
+    height: 40px;
+    display: inline-block;
+    font-size: xx-large;
+}
+
+.brand-box:hover {
+    cursor: pointer;
+}
+
+.navigation-bar ul {
+    display: inline-flex;
+    list-style: none;
+}
+
+.navigation-bar ul li {
+    font-size: 16px;
+    min-height: 16px;
+}
+
+.navigation-bar ul li a {
+    padding: 28px 17px;
+    display: block;
+    text-decoration: none;
+    color: white;
+}
+
+.secondary-navigation-item {
+    color: #d9dadc !important;
+}
+
+.navigation-bar ul li a:hover {
+    color: #1ed760 !important;
+}
+
+.separator {
+    margin: auto 17px;
+    width: 1px;
+    display: inline-block;
+    background-color: white;
+}
+

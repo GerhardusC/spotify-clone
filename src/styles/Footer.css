@@ -1,0 +1,117 @@
+/* 
+    These styles try to copy the Footer as much as possible. Responsive design not implemented the same here as on the original website. 
+*/
+footer {
+    padding: 80px 0 50px;
+    color: white;
+    background-color: #000;
+}
+
+.footer-navigation-block {
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+}
+
+.bottom-links {
+    display: flex;
+    flex: 0 0 auto;
+    gap: 50px;
+}
+
+.navigation-data-list dt {
+    color: #919496;
+}
+
+.navigation-data-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px
+}
+
+.navigation-data-list dd {
+    margin-left: 0;
+}
+
+.navigation-data-list dd:hover {
+    color: #1ed760;
+    cursor: pointer;
+}
+
+.tiny-bottom-links-container {
+    display: flex;
+}
+
+.tiny-bottom-links {
+    max-width: 1070px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tiny-bottom-links ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    font-size: small;
+}
+
+.tiny-bottom-links ul li {
+    color: #919496;
+}
+
+.tiny-bottom-links ul li:hover {
+    color: #1ed760;
+    cursor: pointer;
+}
+
+.copyright-in-the-corner {
+    text-align: right;
+    margin-right: 10px;
+    font-size: smaller;
+    color: #919496;
+}
+
+.region-name {
+    margin-right: 10px;
+    margin-left: auto;
+    color: #919496;
+    font-size: smaller;
+    margin-right: 10px;
+    width: fit-content;
+}
+
+.region-name:hover {
+    color: #1ed760;
+    cursor: pointer;
+}
+
+.social-media-icons {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+
+.social-media-icons img {
+    width: 25px;
+    border-radius: 50%;
+    background-color: #222326;
+    padding: 15px;
+}
+
+.social-media-icons img:hover {
+    background-color: #1ed760;
+    cursor: pointer;
+}
+
+.brand-box img {
+    width: 40px;
+    padding-right: 5px;
+}
+
+.brand-box {
+    display: flex;
+}

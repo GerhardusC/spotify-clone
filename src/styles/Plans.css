@@ -1,0 +1,125 @@
+/* 
+    Styles for the "Pick your premium" section of the page. The styles for the plan boxes as well as the tags are also held here.
+*/
+.premium-plans-main-container {
+    background-color: #f8f8f8;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    text-align: center;
+}
+
+.plans-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.single-plan {
+    max-width: 253px;
+    max-height: 600px;
+    padding: 10px 16px;
+    text-align: left;
+    border-radius: 10px;
+    box-shadow: rgb(255, 255, 255) 0px 0px 0px 0px, rgba(0, 0, 0, 0.3) 0px 0px 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+.single-plan h1 {
+    font-size: x-large;
+}
+
+.single-plan p {
+    font-family: "GothamLight";
+}
+
+.feature-list {
+    font-family: "GothamLight";
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.get-started-button {
+    color: white;
+    text-align: center;
+    
+}
+
+.secondary-tag, .primary-tag {
+    font-size: small;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 10px;
+    max-width: fit-content;
+    font-weight: bold;
+}
+
+.secondary-tag {
+    color: rgb(13, 114, 234);
+    border: 1px solid rgb(13, 114, 234);
+}
+
+.primary-tag {
+    background-color: rgb(13, 114, 234);
+    color: white;
+    font-family: "GothamBold";
+}
+
+.plan-header {
+    height: 210px;
+}
+
+.plan-features {
+    height: 210px;
+}
+
+.feature-fine-print {
+    font-size: 11px;
+    color: rgb(83, 83, 83);
+    font-weight: bold;
+}
+
+.feature-fine-print a {
+    color: rgb(83, 83, 83);
+}
+
+.student-promotion {
+    display: flex;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    padding: 10px 20px;
+    border-radius: 15px;
+    box-shadow: rgb(255, 255, 255) 0px 0px 0px 0px, rgba(0, 0, 0, 0.3) 0px 0px 8px;
+}
+
+.learn-more-button {
+    margin-right: 8px;
+    border-radius: 500px;
+    padding-block: 14px;
+    padding-inline: 32px;
+    transition: transform 0.1s;
+    border: 2px solid black;
+}
+
+.learn-more-button:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.payment-options {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.payment-options img {
+    width: 30px;
+    height: auto;
+    margin: auto 5px;
+}
